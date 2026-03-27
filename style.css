@@ -37,8 +37,8 @@ input {
         padding-bottom: 20px;
     }
 
-    .box,
-    input {
+    .box
+     {
         max-width: 90% !important;
     }
 }
