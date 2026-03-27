@@ -32,8 +32,8 @@ input {
 
 @media (max-width:500px) {
     .contener {
-        height: auto;
-        width: 90%;
+        height: 500px;
+        width: 80%;
         padding-bottom: 20px;
     }
 
