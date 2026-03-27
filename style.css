@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #FFFBF1;
+}
+
+.contener {
+    background-color: #E36A6A;
+    height: 600px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.box {
+    height: 25px;
+    width: 300px;
+    display: flex;
+}
+
+input {
+    width: 300px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+@media (max-width:500px) {
+    .contener {
+        height: auto;
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .box,
+    input {
+        max-width: 90% !important;
+    }
+}
+
+#addbtn,
+#deletebtn {
+    background-color: #FFF2D0;
+    color: black;
+    border-radius: 5px;
+    border: 2px solid;
+
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+#darkbtn {
+    background-color: black;
+    color: #FFFBF1;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#lightbtn {
+    background-color: #FFFBF1;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
